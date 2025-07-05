@@ -1,45 +1,74 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Капля Отдыха</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <!-- Главный экран -->
-  <section class="hero">
-    <div class="hero-overlay">
-      <header class="hero-header">
-        <div class="hero-logo">
-          <img src="https://cdn-icons-png.flaticon.com/512/728/728093.png" alt="Логотип" />
-        </div>
-        <h1 class="hero-title">Капля Отдыха</h1>
-        <div class="hero-phone">
-          <a href="tel:+79991234567">+7 (999) 123-45-67</a>
-        </div>
-      </header>
-    </div>
-  </section>
-
-  <!-- Второй блок: описание отдыха -->
-  <section class="about-section">
-    <div class="about-wrapper">
-      <div class="about-text-box">
-        <h2>Живи медленно. Отдыхай глубоко.</h2>
-        <p>
-          Представь: рассвет над лесом, запах свежей хвои и лёгкий ветер.  
-          В кемпинге <strong>«Капля Отдыха»</strong> ты забываешь про город,  
-          расслабляешься в уютном трейлере и ловишь настоящую свободу.
-        </p>
-        <p>
-          Здесь комфорт сочетается с природой.  
-          Приезжай, и ты почувствуешь, что такое отдых с душой.
-        </p>
-      </div>
-    </div>
-  </section>
-
-</body>
-</html>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Кемпинг "Зеленая поляна"</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .pricing-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .pricing-table th, .pricing-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        .contact-info {
+            background-color: #e2e2e2;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+        @media(max-width: 768px) {
+            .gallery {
+                flex-direction: column;
+                align-items:
