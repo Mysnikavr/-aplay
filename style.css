@@ -1,7 +1,7 @@
 body, html {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 
 /* Главный экран */
@@ -45,7 +45,7 @@ body, html {
 
 /* Второй блок */
 .about-section {
-  background: url('https://images.unsplash.com/photo-1599666784749-99f1a6c3e5fd?auto=format&fit=crop&w=1600&q=80') center center / cover no-repeat;
+  background: url('https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=1600&q=80') center center / cover no-repeat;
   padding: 100px 0;
   display: flex;
   justify-content: flex-end;
